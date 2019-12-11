@@ -1,0 +1,107 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  display: inline-block;
+}
+   * {
+              box-sizing: border-box;
+            
+            }
+            
+            body {
+              margin: 0;
+              font-family: Arial;
+              font-size: 17px;
+            }
+            
+            #myVideo {
+              position: fixed;
+              right: 0;
+              bottom: 0;
+              min-width: 100%; 
+              min-height: 100%;
+            }
+            
+            .content {
+        
+              bottom: 10;
+              background: rgba(62, 66, 66, 0.5);
+              color: #f1f1f1;
+              width: 100%;
+              padding: 20px;
+              margin: 0;
+              align-content: center;
+            
+            }
+           /* #myBtn {
+              width: 200px;
+              font-size: 18px;
+              padding: 10px;
+              border: none;
+              background: #000;
+              color: #fff;
+              cursor: pointer;
+            }
+            
+            #myBtn:hover {
+              background: #ddd;
+              color: black;
+            }  */
+.navbar a{
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.navbar a:hover {
+  background-color: rebeccapurple;
+}
+
+.active {
+  background-color: pink;
+}
+
+.imej{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    width: 100%;
+    text-align: center;
+    color: pink;
+    font-size: x-large;
+}
+h1{
+    text-align: center;
+    color: indigo;
+    font-size: xx-large;
+    font-display: oblique;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #4dbeff, 0 0 70px #f7077f, 0 0 80px #744dff;
+    }
+  }
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
